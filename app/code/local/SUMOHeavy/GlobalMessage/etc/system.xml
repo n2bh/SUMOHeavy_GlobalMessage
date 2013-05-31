@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * SUMOHeavy_GlobalMessage
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to support@sumoheavy.com so we can send you a copy immediately.
+ *
+ * @category   SUMOHeavy
+ * @package    SUMOHeavy_GlobalMessage
+ * @copyright  Copyright 2013 SUMO Heavy Industries, LLC
+ * @license    http://opensource.org/licenses/osl-3.0.php
+ * @author     Sean Kennedy <support@sumoheavy.com>
+ */
+-->
+<config>
+    <tabs>
+        <sumoheavy translate="label" module="sumoheavy_globalmessage">
+            <label>SUMO Heavy</label>
+            <sort_order>999999999</sort_order>
+        </sumoheavy>
+    </tabs>
+    <sections>
+        <sumoheavy_globalmessage translate="label" module="sumoheavy_globalmessage">
+            <label>Global Message</label>
+            <tab>sumoheavy</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>50</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <globalmessage translate="label">
+                    <label>Global Message</label>
+                    <expanded>true</expanded>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label comment">
+                            <label>Global Message Enabled</label>
+                            <comment>This will turn on or off the global message</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <message translate="label comment">
+                            <label>Global Message</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>sumoheavy_globalmessage/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </message>
+                    </fields>
+                </globalmessage>
+            </groups>
+        </sumoheavy_globalmessage>
+    </sections>
+</config>
