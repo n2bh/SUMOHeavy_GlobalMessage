@@ -19,7 +19,7 @@
   },
   "extra": {
     "map": [
-      ["app", "app"],
+      ["app", "app"]
     ]
   }
 }
