@@ -16,7 +16,7 @@
   "require": {
     "php": ">=5.2.13",
     "magento-hackathon/magento-composer-installer": "*"
-  }
+  },
   "extra": {
     "map": [
       ["app", "app"],
