@@ -1,0 +1,19 @@
+{
+    "name": "sumoheavy/magento-global-message",
+    "type": "magento-module",
+    "description": "Global Message Module for Magento",
+    "keywords": ["magento"],
+    "homepage": "https://github.com/sumoheavy/SUMOHeavy_GlobalMessage",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Sean Kennedy",
+            "email": "sean@sumoheavy.com",
+            "homepage": "http://www.sumoheavy.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.13"
+    },
+}
