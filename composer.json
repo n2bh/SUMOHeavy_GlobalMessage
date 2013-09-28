@@ -18,8 +18,6 @@
     "magento-hackathon/magento-composer-installer": "*"
   },
   "extra": {
-    "map": [
-      ["app", "app"]
-    ]
+    "magento-root-dir": "/"
   }
 }
