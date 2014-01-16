@@ -1,0 +1,22 @@
+/**
+ * SUMOHeavy_GlobalMessage
+ *
+ * @category   SUMOHeavy
+ * @package    SUMOHeavy_GlobalMessage
+ * @copyright  Copyright 2013 SUMO Heavy Industries, LLC
+ * @author     Sean Kennedy <support@sumoheavy.com>
+ */
+.sh-globalmessage,
+.sh-globalmessage * {
+    margin: 0;
+    padding: 0;
+}
+.sh-globalmessage {
+    background: transparent;
+    padding: 5px 0;
+}
+.sh-globalmessage > p {}
+.sh-globalmessage > p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
